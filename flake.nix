@@ -3,7 +3,7 @@
   inputs = {
     flake-utils = { url = "github:numtide/flake-utils"; };
     horizon-platform = {
-      url = "git+https://gitlab.homotopic.tech/horizon/horizon-platform";
+      url = "git+https://gitlab.homotopic.tech/horizon/horizon-platform?ref=raoul/fix-filepath";
     };
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
     streamly.url = "git+https://github.com/composewell/streamly";
@@ -44,7 +44,12 @@
             program = "${hsPkgs.flora}/bin/flora-cli";
           };
         };
-        devShells.default = hsPkgs.flora.env;
+        devShells.default = hsPkgs.flora.env.overrideAttrs (attrs: {
+          buildInputs = attrs.buildInputs ++ [
+            hsPkgs.cabal-install
+            pkgs.souffle
+          ];
+        });
         packages.default = hsPkgs.flora;
       });
 }

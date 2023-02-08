@@ -17,11 +17,11 @@
     },
     "flake-utils_2": {
       "locked": {
-        "lastModified": 1659877975,
-        "narHash": "sha256-zllb8aq3YO3h8B/U0/J1WBgAL8EX5yWf5pMj3G0NAmc=",
+        "lastModified": 1667395993,
+        "narHash": "sha256-nuEHfE/LcWyuSWnS8t12N1wc105Qtau+/OdUAjtQ0rA=",
         "owner": "numtide",
         "repo": "flake-utils",
-        "rev": "c0e246b9b83f637f4681389ecabcb2681b4f3af0",
+        "rev": "5aed5285a952e0b949eb3ba02c12fa4fcfef535f",
         "type": "github"
       },
       "original": {
@@ -46,11 +46,11 @@
     },
     "get-flake": {
       "locked": {
-        "lastModified": 1644686428,
-        "narHash": "sha256-zkhYsURWFrvEZLkIoBeqFBzSu+cA2u5mo6M8vq9LN7M=",
+        "lastModified": 1673819588,
+        "narHash": "sha256-gRtwKAlu4htvS6dxyZnW3n+vMS1acqnMGVHqxUdETeY=",
         "owner": "ursi",
         "repo": "get-flake",
-        "rev": "703f15558daa56dfae19d1858bb3046afe68831a",
+        "rev": "e0917b6f564aa5acefb1484b5baf76da21746c3c",
         "type": "github"
       },
       "original": {
@@ -68,15 +68,16 @@
         "nixpkgs": "nixpkgs_2"
       },
       "locked": {
-        "lastModified": 1674764798,
-        "narHash": "sha256-l1TVKod7nR4PbfaPKaYVaoiNIB4I9XmaZp/4iuj/yMg=",
-        "ref": "refs/heads/master",
-        "rev": "9a7f673ba436e51a90c286f78c1e0eabd261dc09",
-        "revCount": 899,
+        "lastModified": 1675888166,
+        "narHash": "sha256-JYYFF/9o99zEPAZhTN2WpQgvwcD5VTYkNGdn5S/2Hyk=",
+        "ref": "raoul/fix-filepath",
+        "rev": "52d83f5aeb24b0316cd68d6d0098908d8b02320a",
+        "revCount": 904,
         "type": "git",
         "url": "https://gitlab.homotopic.tech/horizon/horizon-platform"
       },
       "original": {
+        "ref": "raoul/fix-filepath",
         "type": "git",
         "url": "https://gitlab.homotopic.tech/horizon/horizon-platform"
       }
@@ -84,11 +85,11 @@
     "horizon-platform_2": {
       "flake": false,
       "locked": {
-        "lastModified": 1672428555,
-        "narHash": "sha256-+Aui0RtWnkWjSSbOrcg1zcnETuyD44YBj0WJ9fZsogI=",
+        "lastModified": 1674850110,
+        "narHash": "sha256-DWCC/HCr7WrXamIdCkPzZrWFqfAyXRswBgj5QWBW8fY=",
         "ref": "refs/heads/master",
-        "rev": "e187fb1aff7b3aad3cd81f11c5df6963d65b67ed",
-        "revCount": 804,
+        "rev": "aa2cd9d88ffe9235b85fc93d276b877b167d737b",
+        "revCount": 901,
         "type": "git",
         "url": "https://gitlab.homotopic.tech/horizon/horizon-platform"
       },
@@ -134,11 +135,11 @@
     },
     "nixpkgs_2": {
       "locked": {
-        "lastModified": 1672397839,
-        "narHash": "sha256-o+TBFFNSdOu5L1CUetXGMSinghqqlWcI2Sj9GVoJmUY=",
+        "lastModified": 1675698036,
+        "narHash": "sha256-BgsQkQewdlQi8gapJN4phpxkI/FCE/2sORBaFcYbp/A=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "a3f612564c15e8471dd17c15efaf7ede83c57763",
+        "rev": "1046c7b92e908a1202c0f1ba3fc21d19e1cf1b62",
         "type": "github"
       },
       "original": {
@@ -150,11 +151,11 @@
     },
     "nixpkgs_3": {
       "locked": {
-        "lastModified": 1672428209,
-        "narHash": "sha256-eejhqkDz2cb2vc5VeaWphJz8UXNuoNoM8/Op8eWv2tQ=",
+        "lastModified": 1675698036,
+        "narHash": "sha256-BgsQkQewdlQi8gapJN4phpxkI/FCE/2sORBaFcYbp/A=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "293a28df6d7ff3dec1e61e37cc4ee6e6c0fb0847",
+        "rev": "1046c7b92e908a1202c0f1ba3fc21d19e1cf1b62",
         "type": "github"
       },
       "original": {
@@ -175,11 +176,11 @@
     "streamly": {
       "flake": false,
       "locked": {
-        "lastModified": 1674133089,
-        "narHash": "sha256-6dkGifxXAx34iohci/V9t4YV38a96sTs9bp2YbjQz64=",
-        "ref": "master",
-        "rev": "81bfdec2246a38fcda3731289093717f5207d62a",
-        "revCount": 3813,
+        "lastModified": 1675701586,
+        "narHash": "sha256-d3w6AY9UwZX702g64vI6+Cmr+D6VIAmRUUKy4Uwfb5k=",
+        "ref": "refs/heads/master",
+        "rev": "8629a0e806f5eea87d23650c540aa04176f25c43",
+        "revCount": 3816,
         "type": "git",
         "url": "https://github.com/composewell/streamly"
       },
